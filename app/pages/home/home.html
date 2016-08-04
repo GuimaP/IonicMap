@@ -1,10 +1,26 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar danger>
     <ion-title>Home</ion-title>
   </ion-navbar>
+
 </ion-header>
+
 
 <ion-content padding class="home">
   <h2>Welcome to Ionic!</h2>
-  <div id="map"></div>
+
+  <ion-card *ngFor="let pet of pets" (click)="tap(pet)">
+      <ion-card-header>
+        [{{pet.id}}]{{pet.name}}
+      </ion-card-header>
+      <ion-card-content>
+        Lorem  Ipsum
+        {{pet.distance}}
+
+      </ion-card-content>
+
+  </ion-card>
+    <div id="map"></div>
 </ion-content>
+
+
