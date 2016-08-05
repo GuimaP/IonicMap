@@ -7,6 +7,7 @@
 // By default each design mode includes these shared imports.
 // App Shared Sass variables belong in app.variables.scss.
 
+
 @import "../pages/about/about";
 
 @import "../pages/contact/contact";
@@ -14,3 +15,22 @@
 @import "../pages/home/home";
 
 @import "../pages/details-pet/details-pet";
+
+
+ion-nav ion-page.show-page {
+  visibility: hidden;
+  display:none;
+}
+ion-nav ion-page.show-page:last-of-type {
+  visibility: visible;
+  display: block;
+}
+ion-page.show-page ion-tab {
+  visibility: hidden;
+  display:none;
+}
+ion-page.show-page ion-tab.show-tab {
+  visibility: visible;
+  display: block;
+}
+
