@@ -4,6 +4,7 @@
 
   import {PetShop} from '../../model/PetShop';
   import {DetailsPetPage} from '../details-pet/details-pet';
+  import {SharedData} from "../../providers/shared-data/shared-data";
 
   @Component({
     templateUrl: 'build/pages/home/home.html'
@@ -26,13 +27,21 @@
       ngOnInit(){
         this.pets.push(new PetShop(1,"Clínica Veterinária Cão Q Mia",-23.5763088,-46.6249815));
         this.pets.push(new PetShop(2,"Centro de Estética Animal Silver Dog",-23.5767618,-46.6246469));
+        this.pets.push(new PetShop(3,"Pet Shop dan dan",-23640130,-46607164));
 
         console.log(this.pets);
       }
 
       tap(petshop){
+          let topPage = window.document.getElementsByTagName('ion-tabbar')[0].getAttribute("style");
+          console.log(topPage);
+          SharedData.setData('topPage',topPage);
+        console.log('pass');
 
-        this.navCtrl.push(DetailsPetPage,{pet: petshop})
+          window.document.getElementsByTagName('ion-tabbar')[0].setAttribute("style","visibility:hidden");
+          window.document.getElementsByTagName('ion-tab')[0].setAttribute("style","visibility:hidden;display:none;");
+          window.document.getElementsByTagName('ion-tab')[1].setAttribute("style","visibility:hidden;display:none;");
+          this.navCtrl.push(DetailsPetPage,{pet: petshop})
       }
 
       setupGoogleMap(){
