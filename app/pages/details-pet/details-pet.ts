@@ -68,10 +68,10 @@ export class DetailsPetPage implements OnInit {
         };
         Geolocation.getCurrentPosition(options).then((resp) => {
           console.log(resp);
-          // let lat = resp.coords.latitude;
-          // let lon = resp.coords.longitude;
-          let lat = resp.latLng.lat;
-          let lon = resp.latLng.lng;
+          let lat = resp.coords.latitude;
+          let lon = resp.coords.longitude;
+          // let lat = resp.latLng.lat;
+          // let lon = resp.latLng.lng;
 
           console.log("Positions is avaliable",lat,lon);
 
