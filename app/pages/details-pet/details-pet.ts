@@ -26,7 +26,7 @@ export class DetailsPetPage implements OnInit {
   ngOnInit():any {
     this.petshop = this.navParams.get("pet");
     this.platform.ready().then(()=>{
-      //this.setupMap();
+      this.setupMap();
     });
 
 
