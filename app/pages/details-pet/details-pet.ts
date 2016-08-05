@@ -1,6 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {NavController, NavParams, Platform} from 'ionic-angular';
 import {Geolocation, GoogleMap, GoogleMapsEvent, GoogleMapsLatLng} from "ionic-native/dist/index";
+import {initAngular1} from "ionic-native/dist/ng1";
+
+import {SharedData} from '../../providers/shared-data/shared-data';
 
 /*
   Generated class for the DetailsPetPage page.
@@ -15,6 +18,8 @@ export class DetailsPetPage implements OnInit{
   private map;
   private petshop;
 
+
+
   constructor(
       private nav: NavController,
       private navParams:NavParams,
@@ -25,18 +30,18 @@ export class DetailsPetPage implements OnInit{
 
   ngOnInit():any {
     // this.petshop = this.navParams.get("pet");
-    
-
     this.platform.ready().then(()=>{
       this.setupMap();
     });
 
   }
 
+
+
   setupMap(){
     this.map = new GoogleMap('map-details');
     this.map.setVisible(true);
-    this.map.setBackgroundColor("#252525");
+    this.map.setBackgroundColor("#FFFFFF");
 
 
     GoogleMap.isAvailable().then(() => {
@@ -92,6 +97,12 @@ export class DetailsPetPage implements OnInit{
       console.log("error ao carregar o gps ",e);
     })*/
 
+  }
+
+  ionViewWillUnload(){
+    // let topPage = SharedData.getData('topPage');
+    // window.document.getElementsByTagName('ion-tabbar')[0].setAttribute("style","visibility:block;"+topPage );
+    // window.document.getElementsByTagName('ion-tab')[0].setAttribute("style","visibility:block;display:initial");
   }
 
 }

@@ -1,6 +1,7 @@
   import {Component, OnInit, Input} from '@angular/core';
   import {NavController, Platform} from 'ionic-angular';
 
+  import {SharedData} from '../../providers/shared-data/shared-data';
 
   import {PetShop} from '../../model/PetShop';
   import {DetailsPetPage} from '../details-pet/details-pet';
@@ -26,8 +27,12 @@
       }
 
       tap(petshop){
+        // let topPage = window.document.getElementsByTagName('ion-tabbar')[0].getAttribute("style");
+        // SharedData.setData('topPage',topPage);
 
-        this.navCtrl.push(DetailsPetPage,{pet: petshop})
+        // window.document.getElementsByTagName('ion-tabbar')[0].setAttribute("style","visibility:hidden");
+        // window.document.getElementsByTagName('ion-tab')[0].setAttribute("style","visibility:hidden;display:none;");
+        this.navCtrl.push(DetailsPetPage,{pet: petshop});
       }
 
 
