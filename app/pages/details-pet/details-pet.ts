@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {NavController, NavParams, Platform} from 'ionic-angular';
 import {Geolocation, GoogleMap, GoogleMapsEvent, GoogleMapsLatLng} from "ionic-native/dist/index";
-
+import {AuxMapService} from '../../Helper/auxMap';
 /*
   Generated class for the DetailsPetPage page.
 
@@ -17,14 +17,16 @@ export class DetailsPetPage implements OnInit{
 
   constructor(
       private nav: NavController,
+      private aux:AuxMapService,
       private navParams:NavParams,
       private platform:Platform
   ) {
-  }
+    this.aux.hideTabSubject.next(true);
+   }
 
 
   ngOnInit():any {
-    // this.petshop = this.navParams.get("pet");
+    this.petshop = this.navParams.get("pet");
     
 
     this.platform.ready().then(()=>{
@@ -32,6 +34,10 @@ export class DetailsPetPage implements OnInit{
     });
 
   }
+
+ ionViewDidLeave(){
+   this.aux.hideTabSubject.next(false);
+ }
 
   setupMap(){
     this.map = new GoogleMap('map-details');

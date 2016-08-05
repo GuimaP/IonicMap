@@ -4,8 +4,10 @@ import {AboutPage} from '../about/about';
 import {ContactPage} from '../contact/contact';
 
 import {DetailsPetPage} from '../details-pet/details-pet';
+import {AuxMapService} from '../../Helper/auxMap';
 
 @Component({
+  selector: "tabs",
   templateUrl: 'build/pages/tabs/tabs.html'
 })
 export class TabsPage {
@@ -13,13 +15,19 @@ export class TabsPage {
   private tab1Root: any;
   private tab2Root: any;
   private tab3Root: any;
-
-  constructor() {
+  private isToHide = false;
+  constructor(private aux: AuxMapService) {
     // this tells the tabs component which Pages
     // should be each tab's root Page
     this.tab1Root = HomePage;
     // this.tab1Root = DetailsPetPage;
     this.tab2Root = AboutPage;
     this.tab3Root = ContactPage;
+    this.aux.hideTabSubject.subscribe(event=>{
+      this.isToHide = event;
+    });
+
   }
+
+   
 }
