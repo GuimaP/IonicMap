@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b10df9f3-dd18-4380-b8ad-9a6f5ac75b74" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/details-pet/details-pet.html" afterPath="$PROJECT_DIR$/app/pages/details-pet/details-pet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/details-pet/details-pet.scss" afterPath="$PROJECT_DIR$/app/pages/details-pet/details-pet.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/details-pet/details-pet.ts" afterPath="$PROJECT_DIR$/app/pages/details-pet/details-pet.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.html" afterPath="$PROJECT_DIR$/app/pages/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/home.ts" afterPath="$PROJECT_DIR$/app/pages/home/home.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/theme/app.core.scss" afterPath="$PROJECT_DIR$/app/theme/app.core.scss" />
     </list>
     <ignored path="ion-maps-google-maps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +58,8 @@
       <file leaf-file-name="details-pet.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/pages/details-pet/details-pet.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+            <state relative-caret-position="159">
+              <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -448,12 +442,12 @@
       <workItem from="1470315093826" duration="7329000" />
       <workItem from="1470324829853" duration="7013000" />
       <workItem from="1470334611466" duration="8448000" />
-      <workItem from="1470424030453" duration="5478000" />
+      <workItem from="1470424030453" duration="5553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30315000" />
+    <option name="totallyTimeSpent" value="30390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -887,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/details-pet/details-pet.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        <state relative-caret-position="159">
+          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>

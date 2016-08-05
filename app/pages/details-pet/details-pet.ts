@@ -66,7 +66,7 @@ export class DetailsPetPage implements OnInit {
           enableHighAccuracy: true,
           timeout: 5000
         };
-        this.map.getMyLocation().then((resp) => {
+        Geolocation.getCurrentPosition(options).then((resp) => {
           console.log(resp);
           // let lat = resp.coords.latitude;
           // let lon = resp.coords.longitude;
