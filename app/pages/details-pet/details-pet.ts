@@ -11,7 +11,7 @@ import {Geolocation, GoogleMap, GoogleMapsEvent, GoogleMapsLatLng} from "ionic-n
 @Component({
   templateUrl: 'build/pages/details-pet/details-pet.html',
 })
-export class DetailsPetPage implements OnInit {
+export class DetailsPetPage implements OnInit{
   private map;
   private petshop;
 
@@ -20,21 +20,22 @@ export class DetailsPetPage implements OnInit {
       private navParams:NavParams,
       private platform:Platform
   ) {
-
   }
 
+
   ngOnInit():any {
-    this.petshop = this.navParams.get("pet");
+    // this.petshop = this.navParams.get("pet");
+    
+
     this.platform.ready().then(()=>{
       this.setupMap();
     });
-
 
   }
 
   setupMap(){
     this.map = new GoogleMap('map-details');
-    this.map.setVisible(false);
+    this.map.setVisible(true);
     this.map.setBackgroundColor("#252525");
 
 
@@ -44,15 +45,15 @@ export class DetailsPetPage implements OnInit {
       this.map.one(GoogleMapsEvent.MAP_READY).then((data: any) => {
         console.log("MApa is ready");
 
-        // let myPosition = new GoogleMapsLatLng(38.9072, -77.0369);
-        // console.log("My position is", myPosition);
-        //
-        // let latLng = new GoogleMapsLatLng(-23.6339946,-46.6077185);
+        let myPosition = new GoogleMapsLatLng(38.9072, -77.0369);
+        console.log("My position is", myPosition);
+
+        let latLng = new GoogleMapsLatLng(-23.6339946,-46.6077185);
 
 
-        // this.map.setCenter(latLng);
-        // this.map.addMarker({icon:"blue",title:"Discubra", position: latLng});
-        // this.map.animateCamera({ target: latLng, zoom: 10 });
+        this.map.setCenter(latLng);
+        this.map.addMarker({icon:"blue",title:"Discubra", position: latLng});
+        this.map.animateCamera({ target: latLng, zoom: 10 });
       });
     });
     /*var options =  {

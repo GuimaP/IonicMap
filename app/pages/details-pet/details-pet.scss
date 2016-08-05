@@ -5,22 +5,8 @@
 }
 
 
-#google-wrapper{
-  width: 100%;
-  height: 100px;
-  background-color: #252525;
+
   #map-details{
     width: 100%;
     height: 100%;
   }
-  #google-overlay{
-    width  : 100px;
-    height : 380px;
-    background: red;
-    position: absolute;
-    opacity: 0.3;
-    top: 0px;
-    left: 0px;
-    z-index: 99;
-  }
-}

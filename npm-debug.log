@@ -1,0 +1,516 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'angular2-google-maps',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /home/guilherme/JS/ionic/ionicmap/package.json
+5 warn package.json ion-maps-google-maps@ No repository field.
+6 warn package.json ion-maps-google-maps@ No README data
+7 warn package.json ion-maps-google-maps@ No license field.
+8 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/del/package.json
+9 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/es6-shim/package.json
+10 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/gulp/package.json
+11 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/gulp-watch/package.json
+12 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-angular/package.json
+13 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-browserify-typescript/package.json
+14 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-fonts-copy/package.json
+15 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-html-copy/package.json
+16 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-sass-build/package.json
+17 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-scripts-copy/package.json
+18 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-tslint/package.json
+19 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-native/package.json
+20 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionicons/package.json
+21 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/reflect-metadata/package.json
+22 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/run-sequence/package.json
+23 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/rxjs/package.json
+24 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/tslint-ionic-rules/package.json
+25 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/zone.js/package.json
+26 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/common/package.json
+27 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/compiler/package.json
+28 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/core/package.json
+29 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/http/package.json
+30 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/platform-browser/package.json
+31 verbose installManyTop reading scoped package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/platform-browser-dynamic/package.json
+32 info package.json ionic-gulp-fonts-copy@1.0.0 No repository field.
+33 info package.json ionic-gulp-fonts-copy@1.0.0 No license field.
+34 info package.json @angular/common@2.0.0-rc.3 No description
+35 info package.json @angular/compiler@2.0.0-rc.3 No description
+36 info package.json @angular/core@2.0.0-rc.3 No description
+37 info package.json @angular/http@2.0.0-rc.3 No description
+38 info package.json @angular/platform-browser@2.0.0-rc.3 No description
+39 info package.json @angular/platform-browser-dynamic@2.0.0-rc.3 No description
+40 verbose readDependencies loading dependencies from /home/guilherme/JS/ionic/ionicmap/package.json
+41 silly cache add args [ 'angular2-google-maps', null ]
+42 verbose cache add spec angular2-google-maps
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'angular2-google-maps',
+43 silly cache add   scope: null,
+43 silly cache add   name: 'angular2-google-maps',
+43 silly cache add   rawSpec: '',
+43 silly cache add   spec: 'latest',
+43 silly cache add   type: 'tag' }
+44 silly addNamed angular2-google-maps@latest
+45 verbose addNamed "latest" is being treated as a dist-tag for angular2-google-maps
+46 info addNameTag [ 'angular2-google-maps', 'latest' ]
+47 silly mapToRegistry name angular2-google-maps
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'angular2-google-maps',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   name: 'angular2-google-maps',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri https://registry.npmjs.org/angular2-google-maps
+52 verbose addNameTag registry:https://registry.npmjs.org/angular2-google-maps not in flight; fetching
+53 verbose request uri https://registry.npmjs.org/angular2-google-maps
+54 verbose request no auth needed
+55 info attempt registry request try #1 at 11:08:10
+56 verbose request using bearer token for auth
+57 verbose request id 8e0fb15a7b51e3e4
+58 verbose etag "AI7SVVVECJ7DFMKB5VL7P7PWR"
+59 http request GET https://registry.npmjs.org/angular2-google-maps
+60 http 304 https://registry.npmjs.org/angular2-google-maps
+61 verbose headers { 'cache-control': 'max-age=300',
+61 verbose headers   'accept-ranges': 'bytes',
+61 verbose headers   date: 'Fri, 05 Aug 2016 14:08:11 GMT',
+61 verbose headers   via: '1.1 varnish',
+61 verbose headers   connection: 'keep-alive',
+61 verbose headers   'x-served-by': 'cache-iad2637-IAD',
+61 verbose headers   'x-cache': 'MISS',
+61 verbose headers   'x-cache-hits': '0',
+61 verbose headers   'x-timer': 'S1470406091.603293,VS0,VE18',
+61 verbose headers   vary: 'Accept-Encoding' }
+62 silly get cb [ 304,
+62 silly get   { 'cache-control': 'max-age=300',
+62 silly get     'accept-ranges': 'bytes',
+62 silly get     date: 'Fri, 05 Aug 2016 14:08:11 GMT',
+62 silly get     via: '1.1 varnish',
+62 silly get     connection: 'keep-alive',
+62 silly get     'x-served-by': 'cache-iad2637-IAD',
+62 silly get     'x-cache': 'MISS',
+62 silly get     'x-cache-hits': '0',
+62 silly get     'x-timer': 'S1470406091.603293,VS0,VE18',
+62 silly get     vary: 'Accept-Encoding' } ]
+63 verbose etag https://registry.npmjs.org/angular2-google-maps from cache
+64 verbose get saving angular2-google-maps to /home/guilherme/.npm/registry.npmjs.org/angular2-google-maps/.cache.json
+65 verbose correctMkdir /home/guilherme/.npm correctMkdir not in flight; initializing
+66 silly addNameTag next cb for angular2-google-maps with tag latest
+67 silly addNamed angular2-google-maps@0.12.0
+68 verbose addNamed "0.12.0" is a plain semver version for angular2-google-maps
+69 silly cache afterAdd angular2-google-maps@0.12.0
+70 verbose afterAdd /home/guilherme/.npm/angular2-google-maps/0.12.0/package/package.json not in flight; writing
+71 verbose correctMkdir /home/guilherme/.npm correctMkdir not in flight; initializing
+72 verbose afterAdd /home/guilherme/.npm/angular2-google-maps/0.12.0/package/package.json written
+73 silly install resolved [ { name: 'angular2-google-maps',
+73 silly install resolved     version: '0.12.0',
+73 silly install resolved     description: 'Angular 2 components for Google Maps',
+73 silly install resolved     repository:
+73 silly install resolved      { type: 'git',
+73 silly install resolved        url: 'git+https://github.com/SebastianM/angular2-google-maps.git' },
+73 silly install resolved     keywords: [ 'angular2', 'google-maps', 'ng2', 'maps' ],
+73 silly install resolved     author:
+73 silly install resolved      { name: 'Sebastian Müller',
+73 silly install resolved        email: 'info@sebastian-mueller.net' },
+73 silly install resolved     license: 'MIT',
+73 silly install resolved     bugs: { url: 'https://github.com/SebastianM/angular2-google-maps/issues' },
+73 silly install resolved     homepage: 'https://github.com/SebastianM/angular2-google-maps#readme',
+73 silly install resolved     dependencies: {},
+73 silly install resolved     jspm: { jspmNodeConversion: false, dependencies: [Object] },
+73 silly install resolved     peerDependencies:
+73 silly install resolved      { '@angular/common': '2.0.0-rc.2',
+73 silly install resolved        '@angular/compiler': '2.0.0-rc.2',
+73 silly install resolved        '@angular/core': '2.0.0-rc.2',
+73 silly install resolved        '@angular/platform-browser': '2.0.0-rc.2',
+73 silly install resolved        '@angular/platform-browser-dynamic': '2.0.0-rc.2',
+73 silly install resolved        'es6-shim': '^0.35.0',
+73 silly install resolved        'reflect-metadata': '^0.1.3',
+73 silly install resolved        rxjs: '5.0.0-beta.6',
+73 silly install resolved        'zone.js': '^0.6.12' },
+73 silly install resolved     _id: 'angular2-google-maps@0.12.0',
+73 silly install resolved     scripts: {},
+73 silly install resolved     _shasum: '69369b96df2a0d60dfd35a62a6ccb6bfb8d4d92c',
+73 silly install resolved     _from: 'angular2-google-maps@latest',
+73 silly install resolved     _resolved: 'https://registry.npmjs.org/angular2-google-maps/-/angular2-google-maps-0.12.0.tgz',
+73 silly install resolved     _npmVersion: '3.8.6',
+73 silly install resolved     _nodeVersion: '5.11.1',
+73 silly install resolved     _npmUser: { name: 'sebastianm', email: 'info@sebastian-mueller.net' },
+73 silly install resolved     dist:
+73 silly install resolved      { shasum: '69369b96df2a0d60dfd35a62a6ccb6bfb8d4d92c',
+73 silly install resolved        tarball: 'https://registry.npmjs.org/angular2-google-maps/-/angular2-google-maps-0.12.0.tgz' },
+73 silly install resolved     maintainers: [ [Object] ],
+73 silly install resolved     _npmOperationalInternal:
+73 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+73 silly install resolved        tmp: 'tmp/angular2-google-maps-0.12.0.tgz_1466535295138_0.6407862023916095' },
+73 silly install resolved     directories: {},
+73 silly install resolved     readme: 'ERROR: No README data found!' } ]
+74 info install angular2-google-maps@0.12.0 into /home/guilherme/JS/ionic/ionicmap
+75 info installOne angular2-google-maps@0.12.0
+76 verbose installOne of angular2-google-maps to /home/guilherme/JS/ionic/ionicmap not in flight; installing
+77 verbose correctMkdir /home/guilherme/.npm/_locks correctMkdir not in flight; initializing
+78 verbose lock using /home/guilherme/.npm/_locks/angular2-google-maps-b9c675dafaa63fdc.lock for /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps
+79 silly install write writing angular2-google-maps 0.12.0 to /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps
+80 verbose unbuild node_modules/angular2-google-maps
+81 silly gentlyRm /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps is being purged from base /home/guilherme/JS/ionic/ionicmap
+82 verbose gentlyRm don't care about contents; nuking /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps
+83 verbose tar unpack /home/guilherme/.npm/angular2-google-maps/0.12.0/package.tgz
+84 verbose tar unpacking to /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps
+85 silly gentlyRm /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps is being purged
+86 verbose gentlyRm don't care about contents; nuking /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps
+87 silly gunzTarPerm modes [ '775', '664' ]
+88 silly gunzTarPerm extractEntry package.json
+89 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+90 silly gunzTarPerm extractEntry README.md
+91 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+92 silly gunzTarPerm extractEntry LICENSE
+93 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+94 silly gunzTarPerm extractEntry core/core.umd.js
+95 silly gunzTarPerm modified mode [ 'core/core.umd.js', 420, 436 ]
+96 silly gunzTarPerm extractEntry core/services.js
+97 silly gunzTarPerm modified mode [ 'core/services.js', 420, 436 ]
+98 silly gunzTarPerm extractEntry core/directives-const.js
+99 silly gunzTarPerm modified mode [ 'core/directives-const.js', 420, 436 ]
+100 silly gunzTarPerm extractEntry core/index.js
+101 silly gunzTarPerm modified mode [ 'core/index.js', 420, 436 ]
+102 silly gunzTarPerm extractEntry core/directives.js
+103 silly gunzTarPerm modified mode [ 'core/directives.js', 420, 436 ]
+104 silly gunzTarPerm extractEntry core/events.js
+105 silly gunzTarPerm modified mode [ 'core/events.js', 420, 436 ]
+106 silly gunzTarPerm extractEntry core/directives-const.js.map
+107 silly gunzTarPerm modified mode [ 'core/directives-const.js.map', 420, 436 ]
+108 silly gunzTarPerm extractEntry core/directives.d.ts
+109 silly gunzTarPerm modified mode [ 'core/directives.d.ts', 420, 436 ]
+110 silly gunzTarPerm extractEntry core/events.d.ts
+111 silly gunzTarPerm modified mode [ 'core/events.d.ts', 420, 436 ]
+112 silly gunzTarPerm extractEntry core/directives/google-map-info-window.js
+113 silly gunzTarPerm modified mode [ 'core/directives/google-map-info-window.js', 420, 436 ]
+114 silly gunzTarPerm extractEntry core/directives/google-map-circle.js
+115 silly gunzTarPerm modified mode [ 'core/directives/google-map-circle.js', 420, 436 ]
+116 silly gunzTarPerm extractEntry core/directives/google-map-marker.js
+117 silly gunzTarPerm modified mode [ 'core/directives/google-map-marker.js', 420, 436 ]
+118 silly gunzTarPerm extractEntry core/directives/google-map.js
+119 silly gunzTarPerm modified mode [ 'core/directives/google-map.js', 420, 436 ]
+120 silly gunzTarPerm extractEntry core/directives/google-map-marker.d.ts
+121 silly gunzTarPerm modified mode [ 'core/directives/google-map-marker.d.ts', 420, 436 ]
+122 silly gunzTarPerm extractEntry core/directives/google-map-info-window.js.map
+123 silly gunzTarPerm modified mode [ 'core/directives/google-map-info-window.js.map', 420, 436 ]
+124 silly gunzTarPerm extractEntry core/directives/google-map-circle.js.map
+125 silly gunzTarPerm modified mode [ 'core/directives/google-map-circle.js.map', 420, 436 ]
+126 silly gunzTarPerm extractEntry core/directives/google-map-info-window.d.ts
+127 silly gunzTarPerm modified mode [ 'core/directives/google-map-info-window.d.ts', 420, 436 ]
+128 silly gunzTarPerm extractEntry core/directives/google-map-marker.js.map
+129 silly gunzTarPerm modified mode [ 'core/directives/google-map-marker.js.map', 420, 436 ]
+130 silly gunzTarPerm extractEntry core/directives/google-map.d.ts
+131 silly gunzTarPerm modified mode [ 'core/directives/google-map.d.ts', 420, 436 ]
+132 silly gunzTarPerm extractEntry core/directives/google-map-circle.d.ts
+133 silly gunzTarPerm modified mode [ 'core/directives/google-map-circle.d.ts', 420, 436 ]
+134 silly gunzTarPerm extractEntry core/directives/google-map.js.map
+135 silly gunzTarPerm modified mode [ 'core/directives/google-map.js.map', 420, 436 ]
+136 silly gunzTarPerm extractEntry core/events.js.map
+137 silly gunzTarPerm modified mode [ 'core/events.js.map', 420, 436 ]
+138 silly gunzTarPerm extractEntry core/index.d.ts
+139 silly gunzTarPerm modified mode [ 'core/index.d.ts', 420, 436 ]
+140 silly gunzTarPerm extractEntry core/directives.js.map
+141 silly gunzTarPerm modified mode [ 'core/directives.js.map', 420, 436 ]
+142 silly gunzTarPerm extractEntry core/index.js.map
+143 silly gunzTarPerm modified mode [ 'core/index.js.map', 420, 436 ]
+144 silly gunzTarPerm extractEntry core/services/google-maps-api-wrapper.js
+145 silly gunzTarPerm modified mode [ 'core/services/google-maps-api-wrapper.js', 420, 436 ]
+146 silly gunzTarPerm extractEntry core/services/google-maps-types.js
+147 silly gunzTarPerm modified mode [ 'core/services/google-maps-types.js', 420, 436 ]
+148 silly gunzTarPerm extractEntry core/services/google-maps-api-wrapper.d.ts
+149 silly gunzTarPerm modified mode [ 'core/services/google-maps-api-wrapper.d.ts', 420, 436 ]
+150 silly gunzTarPerm extractEntry core/services/google-maps-api-wrapper.js.map
+151 silly gunzTarPerm modified mode [ 'core/services/google-maps-api-wrapper.js.map', 420, 436 ]
+152 silly gunzTarPerm extractEntry core/services/google-maps-types.d.ts
+153 silly gunzTarPerm modified mode [ 'core/services/google-maps-types.d.ts', 420, 436 ]
+154 silly gunzTarPerm extractEntry core/services/google-maps-types.js.map
+155 silly gunzTarPerm modified mode [ 'core/services/google-maps-types.js.map', 420, 436 ]
+156 silly gunzTarPerm extractEntry core/services/managers/circle-manager.js
+157 silly gunzTarPerm modified mode [ 'core/services/managers/circle-manager.js', 420, 436 ]
+158 silly gunzTarPerm extractEntry core/services/managers/info-window-manager.js
+159 silly gunzTarPerm modified mode [ 'core/services/managers/info-window-manager.js', 420, 436 ]
+160 silly gunzTarPerm extractEntry core/services/managers/marker-manager.js
+161 silly gunzTarPerm modified mode [ 'core/services/managers/marker-manager.js', 420, 436 ]
+162 silly gunzTarPerm extractEntry core/services/managers/circle-manager.d.ts
+163 silly gunzTarPerm modified mode [ 'core/services/managers/circle-manager.d.ts', 420, 436 ]
+164 silly gunzTarPerm extractEntry core/services/managers/circle-manager.js.map
+165 silly gunzTarPerm modified mode [ 'core/services/managers/circle-manager.js.map', 420, 436 ]
+166 silly gunzTarPerm extractEntry core/services/managers/info-window-manager.d.ts
+167 silly gunzTarPerm modified mode [ 'core/services/managers/info-window-manager.d.ts', 420, 436 ]
+168 silly gunzTarPerm extractEntry core/services/managers/info-window-manager.js.map
+169 silly gunzTarPerm modified mode [ 'core/services/managers/info-window-manager.js.map', 420, 436 ]
+170 silly gunzTarPerm extractEntry core/services/managers/marker-manager.d.ts
+171 silly gunzTarPerm modified mode [ 'core/services/managers/marker-manager.d.ts', 420, 436 ]
+172 silly gunzTarPerm extractEntry core/services/managers/marker-manager.js.map
+173 silly gunzTarPerm modified mode [ 'core/services/managers/marker-manager.js.map', 420, 436 ]
+174 silly gunzTarPerm extractEntry core/services/maps-api-loader/lazy-maps-api-loader.js
+175 silly gunzTarPerm modified mode [ 'core/services/maps-api-loader/lazy-maps-api-loader.js',
+175 silly gunzTarPerm   420,
+175 silly gunzTarPerm   436 ]
+176 silly gunzTarPerm extractEntry core/services/maps-api-loader/maps-api-loader.js
+177 silly gunzTarPerm modified mode [ 'core/services/maps-api-loader/maps-api-loader.js', 420, 436 ]
+178 silly gunzTarPerm extractEntry core/services/maps-api-loader/noop-maps-api-loader.js
+179 silly gunzTarPerm modified mode [ 'core/services/maps-api-loader/noop-maps-api-loader.js',
+179 silly gunzTarPerm   420,
+179 silly gunzTarPerm   436 ]
+180 silly gunzTarPerm extractEntry core/services/maps-api-loader/lazy-maps-api-loader.d.ts
+181 silly gunzTarPerm modified mode [ 'core/services/maps-api-loader/lazy-maps-api-loader.d.ts',
+181 silly gunzTarPerm   420,
+181 silly gunzTarPerm   436 ]
+182 silly gunzTarPerm extractEntry core/services/maps-api-loader/lazy-maps-api-loader.js.map
+183 silly gunzTarPerm modified mode [ 'core/services/maps-api-loader/lazy-maps-api-loader.js.map',
+183 silly gunzTarPerm   420,
+183 silly gunzTarPerm   436 ]
+184 silly gunzTarPerm extractEntry core/services/maps-api-loader/maps-api-loader.d.ts
+185 silly gunzTarPerm modified mode [ 'core/services/maps-api-loader/maps-api-loader.d.ts',
+185 silly gunzTarPerm   420,
+185 silly gunzTarPerm   436 ]
+186 silly gunzTarPerm extractEntry core/services/maps-api-loader/maps-api-loader.js.map
+187 silly gunzTarPerm modified mode [ 'core/services/maps-api-loader/maps-api-loader.js.map',
+187 silly gunzTarPerm   420,
+187 silly gunzTarPerm   436 ]
+188 silly gunzTarPerm extractEntry core/services/maps-api-loader/noop-maps-api-loader.d.ts
+189 silly gunzTarPerm modified mode [ 'core/services/maps-api-loader/noop-maps-api-loader.d.ts',
+189 silly gunzTarPerm   420,
+189 silly gunzTarPerm   436 ]
+190 silly gunzTarPerm extractEntry core/services/maps-api-loader/noop-maps-api-loader.js.map
+191 silly gunzTarPerm modified mode [ 'core/services/maps-api-loader/noop-maps-api-loader.js.map',
+191 silly gunzTarPerm   420,
+191 silly gunzTarPerm   436 ]
+192 silly gunzTarPerm extractEntry core/services.d.ts
+193 silly gunzTarPerm modified mode [ 'core/services.d.ts', 420, 436 ]
+194 silly gunzTarPerm extractEntry core/directives-const.d.ts
+195 silly gunzTarPerm modified mode [ 'core/directives-const.d.ts', 420, 436 ]
+196 silly gunzTarPerm extractEntry core/services.js.map
+197 silly gunzTarPerm modified mode [ 'core/services.js.map', 420, 436 ]
+198 silly gunzTarPerm extractEntry core/utils/browser-globals.js
+199 silly gunzTarPerm modified mode [ 'core/utils/browser-globals.js', 420, 436 ]
+200 silly gunzTarPerm extractEntry core/utils/browser-globals.d.ts
+201 silly gunzTarPerm modified mode [ 'core/utils/browser-globals.d.ts', 420, 436 ]
+202 silly gunzTarPerm extractEntry core/utils/browser-globals.js.map
+203 silly gunzTarPerm modified mode [ 'core/utils/browser-globals.js.map', 420, 436 ]
+204 silly gunzTarPerm extractEntry esm/core/directives.js
+205 silly gunzTarPerm modified mode [ 'esm/core/directives.js', 420, 436 ]
+206 silly gunzTarPerm extractEntry esm/core/events.js
+207 silly gunzTarPerm modified mode [ 'esm/core/events.js', 420, 436 ]
+208 silly gunzTarPerm extractEntry esm/core/directives-const.js
+209 silly gunzTarPerm modified mode [ 'esm/core/directives-const.js', 420, 436 ]
+210 silly gunzTarPerm extractEntry esm/core/index.js
+211 silly gunzTarPerm modified mode [ 'esm/core/index.js', 420, 436 ]
+212 silly gunzTarPerm extractEntry esm/core/services.js
+213 silly gunzTarPerm modified mode [ 'esm/core/services.js', 420, 436 ]
+214 silly gunzTarPerm extractEntry esm/core/events.js.map
+215 silly gunzTarPerm modified mode [ 'esm/core/events.js.map', 420, 436 ]
+216 silly gunzTarPerm extractEntry esm/core/directives/google-map-circle.js
+217 silly gunzTarPerm modified mode [ 'esm/core/directives/google-map-circle.js', 420, 436 ]
+218 silly gunzTarPerm extractEntry esm/core/directives/google-map-info-window.js
+219 silly gunzTarPerm modified mode [ 'esm/core/directives/google-map-info-window.js', 420, 436 ]
+220 silly gunzTarPerm extractEntry esm/core/directives/google-map-marker.js
+221 silly gunzTarPerm modified mode [ 'esm/core/directives/google-map-marker.js', 420, 436 ]
+222 silly gunzTarPerm extractEntry esm/core/directives/google-map.js
+223 silly gunzTarPerm modified mode [ 'esm/core/directives/google-map.js', 420, 436 ]
+224 silly gunzTarPerm extractEntry esm/core/directives/google-map-circle.js.map
+225 silly gunzTarPerm modified mode [ 'esm/core/directives/google-map-circle.js.map', 420, 436 ]
+226 silly gunzTarPerm extractEntry esm/core/directives/google-map-info-window.js.map
+227 silly gunzTarPerm modified mode [ 'esm/core/directives/google-map-info-window.js.map', 420, 436 ]
+228 silly gunzTarPerm extractEntry esm/core/directives/google-map-marker.js.map
+229 silly gunzTarPerm modified mode [ 'esm/core/directives/google-map-marker.js.map', 420, 436 ]
+230 silly gunzTarPerm extractEntry esm/core/directives/google-map.js.map
+231 silly gunzTarPerm modified mode [ 'esm/core/directives/google-map.js.map', 420, 436 ]
+232 silly gunzTarPerm extractEntry esm/core/directives.js.map
+233 silly gunzTarPerm modified mode [ 'esm/core/directives.js.map', 420, 436 ]
+234 silly gunzTarPerm extractEntry esm/core/index.js.map
+235 silly gunzTarPerm modified mode [ 'esm/core/index.js.map', 420, 436 ]
+236 silly gunzTarPerm extractEntry esm/core/services/google-maps-api-wrapper.js
+237 silly gunzTarPerm modified mode [ 'esm/core/services/google-maps-api-wrapper.js', 420, 436 ]
+238 silly gunzTarPerm extractEntry esm/core/services/google-maps-types.js
+239 silly gunzTarPerm modified mode [ 'esm/core/services/google-maps-types.js', 420, 436 ]
+240 silly gunzTarPerm extractEntry esm/core/services/google-maps-api-wrapper.js.map
+241 silly gunzTarPerm modified mode [ 'esm/core/services/google-maps-api-wrapper.js.map', 420, 436 ]
+242 silly gunzTarPerm extractEntry esm/core/services/google-maps-types.js.map
+243 silly gunzTarPerm modified mode [ 'esm/core/services/google-maps-types.js.map', 420, 436 ]
+244 silly gunzTarPerm extractEntry esm/core/services/managers/circle-manager.js
+245 silly gunzTarPerm modified mode [ 'esm/core/services/managers/circle-manager.js', 420, 436 ]
+246 silly gunzTarPerm extractEntry esm/core/services/managers/info-window-manager.js
+247 silly gunzTarPerm modified mode [ 'esm/core/services/managers/info-window-manager.js', 420, 436 ]
+248 silly gunzTarPerm extractEntry esm/core/services/managers/marker-manager.js
+249 silly gunzTarPerm modified mode [ 'esm/core/services/managers/marker-manager.js', 420, 436 ]
+250 silly gunzTarPerm extractEntry esm/core/services/managers/circle-manager.js.map
+251 silly gunzTarPerm modified mode [ 'esm/core/services/managers/circle-manager.js.map', 420, 436 ]
+252 silly gunzTarPerm extractEntry esm/core/services/managers/info-window-manager.js.map
+253 silly gunzTarPerm modified mode [ 'esm/core/services/managers/info-window-manager.js.map',
+253 silly gunzTarPerm   420,
+253 silly gunzTarPerm   436 ]
+254 silly gunzTarPerm extractEntry esm/core/services/managers/marker-manager.js.map
+255 silly gunzTarPerm modified mode [ 'esm/core/services/managers/marker-manager.js.map', 420, 436 ]
+256 silly gunzTarPerm extractEntry esm/core/services/maps-api-loader/lazy-maps-api-loader.js
+257 silly gunzTarPerm modified mode [ 'esm/core/services/maps-api-loader/lazy-maps-api-loader.js',
+257 silly gunzTarPerm   420,
+257 silly gunzTarPerm   436 ]
+258 silly gunzTarPerm extractEntry esm/core/services/maps-api-loader/maps-api-loader.js
+259 silly gunzTarPerm modified mode [ 'esm/core/services/maps-api-loader/maps-api-loader.js',
+259 silly gunzTarPerm   420,
+259 silly gunzTarPerm   436 ]
+260 silly gunzTarPerm extractEntry esm/core/services/maps-api-loader/noop-maps-api-loader.js
+261 silly gunzTarPerm modified mode [ 'esm/core/services/maps-api-loader/noop-maps-api-loader.js',
+261 silly gunzTarPerm   420,
+261 silly gunzTarPerm   436 ]
+262 silly gunzTarPerm extractEntry esm/core/services/maps-api-loader/lazy-maps-api-loader.js.map
+263 silly gunzTarPerm modified mode [ 'esm/core/services/maps-api-loader/lazy-maps-api-loader.js.map',
+263 silly gunzTarPerm   420,
+263 silly gunzTarPerm   436 ]
+264 silly gunzTarPerm extractEntry esm/core/services/maps-api-loader/maps-api-loader.js.map
+265 silly gunzTarPerm modified mode [ 'esm/core/services/maps-api-loader/maps-api-loader.js.map',
+265 silly gunzTarPerm   420,
+265 silly gunzTarPerm   436 ]
+266 silly gunzTarPerm extractEntry esm/core/services/maps-api-loader/noop-maps-api-loader.js.map
+267 silly gunzTarPerm modified mode [ 'esm/core/services/maps-api-loader/noop-maps-api-loader.js.map',
+267 silly gunzTarPerm   420,
+267 silly gunzTarPerm   436 ]
+268 silly gunzTarPerm extractEntry esm/core/directives-const.js.map
+269 silly gunzTarPerm modified mode [ 'esm/core/directives-const.js.map', 420, 436 ]
+270 silly gunzTarPerm extractEntry esm/core/services.js.map
+271 silly gunzTarPerm modified mode [ 'esm/core/services.js.map', 420, 436 ]
+272 silly gunzTarPerm extractEntry esm/core/utils/browser-globals.js
+273 silly gunzTarPerm modified mode [ 'esm/core/utils/browser-globals.js', 420, 436 ]
+274 silly gunzTarPerm extractEntry esm/core/utils/browser-globals.js.map
+275 silly gunzTarPerm modified mode [ 'esm/core/utils/browser-globals.js.map', 420, 436 ]
+276 silly gunzTarPerm extractEntry ts/core/directives/google-map-circle.ts
+277 silly gunzTarPerm modified mode [ 'ts/core/directives/google-map-circle.ts', 420, 436 ]
+278 silly gunzTarPerm extractEntry ts/core/directives/google-map-info-window.ts
+279 silly gunzTarPerm modified mode [ 'ts/core/directives/google-map-info-window.ts', 420, 436 ]
+280 silly gunzTarPerm extractEntry ts/core/directives/google-map-marker.ts
+281 silly gunzTarPerm modified mode [ 'ts/core/directives/google-map-marker.ts', 420, 436 ]
+282 silly gunzTarPerm extractEntry ts/core/directives/google-map.ts
+283 silly gunzTarPerm modified mode [ 'ts/core/directives/google-map.ts', 420, 436 ]
+284 silly gunzTarPerm extractEntry ts/core/directives-const.ts
+285 silly gunzTarPerm modified mode [ 'ts/core/directives-const.ts', 420, 436 ]
+286 silly gunzTarPerm extractEntry ts/core/directives.ts
+287 silly gunzTarPerm modified mode [ 'ts/core/directives.ts', 420, 436 ]
+288 silly gunzTarPerm extractEntry ts/core/events.ts
+289 silly gunzTarPerm modified mode [ 'ts/core/events.ts', 420, 436 ]
+290 silly gunzTarPerm extractEntry ts/core/index.ts
+291 silly gunzTarPerm modified mode [ 'ts/core/index.ts', 420, 436 ]
+292 silly gunzTarPerm extractEntry ts/core/services/google-maps-api-wrapper.ts
+293 silly gunzTarPerm modified mode [ 'ts/core/services/google-maps-api-wrapper.ts', 420, 436 ]
+294 silly gunzTarPerm extractEntry ts/core/services/google-maps-types.ts
+295 silly gunzTarPerm modified mode [ 'ts/core/services/google-maps-types.ts', 420, 436 ]
+296 silly gunzTarPerm extractEntry ts/core/services/managers/circle-manager.ts
+297 silly gunzTarPerm modified mode [ 'ts/core/services/managers/circle-manager.ts', 420, 436 ]
+298 silly gunzTarPerm extractEntry ts/core/services/managers/info-window-manager.ts
+299 silly gunzTarPerm modified mode [ 'ts/core/services/managers/info-window-manager.ts', 420, 436 ]
+300 silly gunzTarPerm extractEntry ts/core/services/managers/marker-manager.ts
+301 silly gunzTarPerm modified mode [ 'ts/core/services/managers/marker-manager.ts', 420, 436 ]
+302 silly gunzTarPerm extractEntry ts/core/services/maps-api-loader/lazy-maps-api-loader.ts
+303 silly gunzTarPerm modified mode [ 'ts/core/services/maps-api-loader/lazy-maps-api-loader.ts',
+303 silly gunzTarPerm   420,
+303 silly gunzTarPerm   436 ]
+304 silly gunzTarPerm extractEntry ts/core/services/maps-api-loader/maps-api-loader.ts
+305 silly gunzTarPerm modified mode [ 'ts/core/services/maps-api-loader/maps-api-loader.ts',
+305 silly gunzTarPerm   420,
+305 silly gunzTarPerm   436 ]
+306 silly gunzTarPerm extractEntry ts/core/services/maps-api-loader/noop-maps-api-loader.ts
+307 silly gunzTarPerm modified mode [ 'ts/core/services/maps-api-loader/noop-maps-api-loader.ts',
+307 silly gunzTarPerm   420,
+307 silly gunzTarPerm   436 ]
+308 silly gunzTarPerm extractEntry ts/core/services.ts
+309 silly gunzTarPerm modified mode [ 'ts/core/services.ts', 420, 436 ]
+310 silly gunzTarPerm extractEntry ts/core/utils/browser-globals.ts
+311 silly gunzTarPerm modified mode [ 'ts/core/utils/browser-globals.ts', 420, 436 ]
+312 verbose write writing to /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps/package.json
+313 info preinstall angular2-google-maps@0.12.0
+314 verbose readDependencies loading dependencies from /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps/package.json
+315 silly prepareForInstallMany adding @angular/common@2.0.0-rc.2 from angular2-google-maps peerDependencies
+316 silly prepareForInstallMany adding @angular/compiler@2.0.0-rc.2 from angular2-google-maps peerDependencies
+317 silly prepareForInstallMany adding @angular/core@2.0.0-rc.2 from angular2-google-maps peerDependencies
+318 silly prepareForInstallMany adding @angular/platform-browser@2.0.0-rc.2 from angular2-google-maps peerDependencies
+319 silly prepareForInstallMany adding @angular/platform-browser-dynamic@2.0.0-rc.2 from angular2-google-maps peerDependencies
+320 warn peerDependencies The peer dependency @angular/common@2.0.0-rc.2 included from angular2-google-maps will no
+321 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+322 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+323 warn peerDependencies The peer dependency @angular/compiler@2.0.0-rc.2 included from angular2-google-maps will no
+324 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+325 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+326 warn peerDependencies The peer dependency @angular/core@2.0.0-rc.2 included from angular2-google-maps will no
+327 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+328 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+329 warn peerDependencies The peer dependency @angular/platform-browser@2.0.0-rc.2 included from angular2-google-maps will no
+330 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+331 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+332 warn peerDependencies The peer dependency @angular/platform-browser-dynamic@2.0.0-rc.2 included from angular2-google-maps will no
+333 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+334 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+335 verbose readDependencies loading dependencies from /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps/package.json
+336 silly install resolved []
+337 verbose about to build /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps
+338 info build /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps
+339 info linkStuff angular2-google-maps@0.12.0
+340 silly linkStuff angular2-google-maps@0.12.0 has /home/guilherme/JS/ionic/ionicmap/node_modules as its parent node_modules
+341 verbose linkBins angular2-google-maps@0.12.0
+342 verbose linkMans angular2-google-maps@0.12.0
+343 verbose rebuildBundles angular2-google-maps@0.12.0
+344 info install angular2-google-maps@0.12.0
+345 info postinstall angular2-google-maps@0.12.0
+346 verbose readDependencies loading dependencies from /home/guilherme/JS/ionic/ionicmap/package.json
+347 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps/package.json
+348 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/del/package.json
+349 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/es6-shim/package.json
+350 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/gulp/package.json
+351 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/gulp-watch/package.json
+352 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-angular/package.json
+353 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-browserify-typescript/package.json
+354 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-fonts-copy/package.json
+355 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-html-copy/package.json
+356 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-sass-build/package.json
+357 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-scripts-copy/package.json
+358 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-gulp-tslint/package.json
+359 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionic-native/package.json
+360 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/ionicons/package.json
+361 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/reflect-metadata/package.json
+362 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/run-sequence/package.json
+363 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/rxjs/package.json
+364 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/tslint-ionic-rules/package.json
+365 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/zone.js/package.json
+366 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/common/package.json
+367 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/compiler/package.json
+368 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/core/package.json
+369 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/http/package.json
+370 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/platform-browser/package.json
+371 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/@angular/platform-browser-dynamic/package.json
+372 verbose targetResolver reading package data from /home/guilherme/JS/ionic/ionicmap/node_modules/.bin/gulp/package.json
+373 verbose already installed skipping @angular/common@2.0.0-rc.2 /home/guilherme/JS/ionic/ionicmap
+374 verbose already installed skipping @angular/compiler@2.0.0-rc.2 /home/guilherme/JS/ionic/ionicmap
+375 verbose already installed skipping @angular/core@2.0.0-rc.2 /home/guilherme/JS/ionic/ionicmap
+376 verbose already installed skipping @angular/platform-browser@2.0.0-rc.2 /home/guilherme/JS/ionic/ionicmap
+377 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.2 /home/guilherme/JS/ionic/ionicmap
+378 silly install resolved []
+379 verbose unlock done using /home/guilherme/.npm/_locks/angular2-google-maps-b9c675dafaa63fdc.lock for /home/guilherme/JS/ionic/ionicmap/node_modules/angular2-google-maps
+380 verbose validateInstall loading /home/guilherme/JS/ionic/ionicmap/package.json for validation
+381 verbose stack Error: The package @angular/common@2.0.0-rc.3 does not satisfy its siblings' peerDependencies requirements!
+381 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:125:32
+381 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:268:7
+381 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+381 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+381 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+381 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+381 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+381 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+381 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+381 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+382 verbose cwd /home/guilherme/JS/ionic/ionicmap
+383 error Linux 4.4.0-31-generic
+384 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "angular2-google-maps" "--save"
+385 error node v4.4.7
+386 error npm  v2.15.8
+387 error code EPEERINVALID
+388 error peerinvalid The package @angular/common@2.0.0-rc.3 does not satisfy its siblings' peerDependencies requirements!
+388 error peerinvalid Peer @angular/platform-browser@2.0.0-rc.3 wants @angular/common@2.0.0-rc.3
+388 error peerinvalid Peer @angular/platform-browser-dynamic@2.0.0-rc.3 wants @angular/common@2.0.0-rc.3
+388 error peerinvalid Peer ionic-angular@2.0.0-beta.10 wants @angular/common@^2.0.0-rc.3
+388 error peerinvalid Peer angular2-google-maps@0.12.0 wants @angular/common@2.0.0-rc.2
+389 verbose exit [ 1, true ]
