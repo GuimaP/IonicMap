@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b10df9f3-dd18-4380-b8ad-9a6f5ac75b74" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/details-pet/details-pet.html" afterPath="$PROJECT_DIR$/app/pages/details-pet/details-pet.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/theme/app.core.scss" afterPath="$PROJECT_DIR$/app/theme/app.core.scss" />
     </list>
     <ignored path="ion-maps-google-maps.iws" />
@@ -60,8 +58,8 @@
       <file leaf-file-name="app.core.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/theme/app.core.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="630">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -494,12 +492,12 @@
       <workItem from="1470315093826" duration="7329000" />
       <workItem from="1470324829853" duration="7013000" />
       <workItem from="1470334611466" duration="8855000" />
-      <workItem from="1470402057609" duration="1395000" />
+      <workItem from="1470402057609" duration="1487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26639000" />
+    <option name="totallyTimeSpent" value="26731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -926,8 +924,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/theme/app.core.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="630">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
         </state>
       </provider>
