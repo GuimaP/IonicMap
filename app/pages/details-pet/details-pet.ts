@@ -25,12 +25,10 @@ export class DetailsPetPage implements OnInit {
   }
 
   ngOnInit():any {
-    console.log(this.map);
-
     this.petshop = this.navParams.get("pet");
     this.platform.ready().then(()=>{
 
-      this.setupMap();
+      // this.setupMap();
     });
 
 
@@ -104,11 +102,11 @@ export class DetailsPetPage implements OnInit {
   }
 
   ionViewWillUnload(){
-    this.map.clear();
-    let topPage = SharedData.getData('topPage');
-    window.document.getElementsByTagName('ion-tabbar')[0].setAttribute("style","visibility:block;"+topPage );
-    window.document.getElementsByTagName('ion-tab')[0].setAttribute("style","visibility:block;display:initial");
-    window.document.getElementsByTagName('ion-tab')[1].setAttribute("style","visibility:block;display:initial");
+    // this.map.clear();
+    // let topPage = SharedData.getData('topPage');
+    // window.document.getElementsByTagName('ion-tabbar')[0].setAttribute("style","visibility:block;"+topPage );
+    // window.document.getElementsByTagName('ion-tab')[0].setAttribute("style","visibility:block;display:initial");
+    // window.document.getElementsByTagName('ion-tab')[1].setAttribute("style","visibility:block;display:initial");
   }
 
 }

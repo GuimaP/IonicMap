@@ -1,0 +1,26 @@
+<ion-content padding class="login">
+  <form ngSubmit="check()">
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input center type="email" [(ngModel)]="user.name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Senha</ion-label>
+      <ion-input center type="password" [(ngModel)]="user.password" ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <button full large center danger (click)="check()">Logar</button>
+    </ion-item>
+    
+    <ion-item class="invalid" *ngIf="error">
+      <p>Usuario tem que ser: </p>
+      <p>gui@gui.com</p>
+      <p>gui</p>
+    </ion-item>
+
+  </ion-list>
+  </form>
+</ion-content>

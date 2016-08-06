@@ -1,0 +1,30 @@
+$bgcolor:  #f3f3f3;
+
+.login {
+    background-color: $bgcolor;
+    ion-list{
+        &,
+        ion-item{
+            background-color: $bgcolor;    
+            border: none;
+        }
+        
+        .item {
+            .item-inner{
+                border: none;
+                ion-input{
+                    border-bottom: 1px solid darken($bgcolor, 10);
+                }
+            }
+        }     
+        
+    }
+
+    .invalid {
+        text-align: center;
+        padding: 15px;
+        background-color: darken($bgcolor, 2);
+        box-shadow: 1px 3px 5px darken($bgcolor, 7);
+        
+    }
+}
